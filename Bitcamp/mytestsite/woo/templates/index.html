@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Will school be cancelled?</title>
+</head>
+{% load static %} 
+<body style="background-image: url({% static 'background.png' %})">
+<div>
+	<div style = "height: 60px; position:absolute; top:50%; margin-top: -30px; left: 50%; margin-right: -50%; transform: translate(-50%, -50%)">
+	<h1 style="text-align:center; font-family: sans-serif">Chance of cancellation: {{ prob }}%</h1>
+	<img style="display: block; margin-left: auto; margin-right: auto" height="50px" width="50px" src='{{ img }}' alt=""/>
+	</div>
+</div>
+</body>
+</html>

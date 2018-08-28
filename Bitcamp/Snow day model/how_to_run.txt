@@ -1,0 +1,3 @@
+trainer.py trains the model (neural net, 1 hidden layer; logistic regression had undercutting problems), predict.py makes a prediction based on the weather forecast. The idea is that predict.py should be scheduled to run once a day to get the probability of delay/closure for the next day.
+
+The other python scripts do formatting things.
