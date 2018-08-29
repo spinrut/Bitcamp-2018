@@ -14,7 +14,7 @@ def index(request):
 ##    num_authors=Author.objects.count()  # The 'all()' is implied by default.
 ##    
     # Render the HTML template index.html with the data in the context variable
-    with open('../../Snow day model/result.csv', 'r') as fin:
+    with open('../Snow day model/result.csv', 'r') as fin:
         reader = csv.reader(fin)
         lines = [line for line in reader]
         
